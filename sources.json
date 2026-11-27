@@ -7,6 +7,13 @@
       "asset_pattern": "(?i)prefbar.*\\.elf$",
       "description": "On-screen performance overlay (FPS, frametimes, 1% lows, temps, RAM/VRAM). Config at http://<PS5-IP>:8998/",
       "category": "Utilities"
+    },
+    {
+      "name": "GTAVI-UnlockFPS",
+      "repo": "HSgod/ps5-fpsunlocker-gta6",
+      "asset_pattern": "(?i)unlockfps.*\\.elf$",
+      "description": "GTA VI FPS unlocker (game v01.002.001). Load BEFORE starting the game. Settings: /data/gtavi-unlockfps/fps.txt",
+      "category": "Game Patches"
     }
   ]
 }
