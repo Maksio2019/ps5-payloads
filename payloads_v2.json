@@ -12,6 +12,18 @@
       "version": "v0.3.1",
       "category": "Utilities",
       "checksum": "b876836d4597e28e519ae6bc80df0eeceefde2e8648491c66d4983a779dff134"
+    },
+    {
+      "name": "GTAVI-UnlockFPS",
+      "filename": "GTAVI.UnlockFPS_v1.14.elf",
+      "url": "https://github.com/HSgod/ps5-fpsunlocker-gta6/releases/download/v1.14/GTAVI.UnlockFPS_v1.14.elf",
+      "source": "https://github.com/HSgod/ps5-fpsunlocker-gta6/releases",
+      "source_direct": "https://github.com/HSgod/ps5-fpsunlocker-gta6/releases/download/v1.14/GTAVI.UnlockFPS_v1.14.elf",
+      "description": "GTA VI FPS unlocker (game v01.002.001). Load BEFORE starting the game. Settings: /data/gtavi-unlockfps/fps.txt",
+      "last_update": "2026-11-26",
+      "version": "v1.14",
+      "category": "Game Patches",
+      "checksum": "9d7b726369407cd1ca1030dfc4bd705d01f27ebf0bf564a7d100c1599db14904"
     }
   ]
 }
