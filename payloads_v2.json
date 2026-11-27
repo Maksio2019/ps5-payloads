@@ -24,6 +24,30 @@
       "version": "v1.14",
       "category": "Game Patches",
       "checksum": "9d7b726369407cd1ca1030dfc4bd705d01f27ebf0bf564a7d100c1599db14904"
+    },
+    {
+      "name": "PoorDS4",
+      "filename": "PoorDS4.elf",
+      "url": "https://github.com/ItsBlurf/PoorDS4/releases/download/v0.2.0/PoorDS4.elf",
+      "source": "https://github.com/ItsBlurf/PoorDS4/releases",
+      "source_direct": "https://github.com/ItsBlurf/PoorDS4/releases/download/v0.2.0/PoorDS4.elf",
+      "description": "Use a wireless DualShock 4 in native PS5 games and homebrew. Connect the DS4 first, then load. No vibration.",
+      "last_update": "2026-10-21",
+      "version": "v0.2.0",
+      "category": "Utilities",
+      "checksum": "c5f257ca2bf2f95949d09f95dd6feb3353b2ad37e24c972d09fccc3beb11301c"
+    },
+    {
+      "name": "PoorDS4-stop",
+      "filename": "PoorDS4-stop.elf",
+      "url": "https://github.com/ItsBlurf/PoorDS4/releases/download/v0.2.0/PoorDS4-stop.elf",
+      "source": "https://github.com/ItsBlurf/PoorDS4/releases",
+      "source_direct": "https://github.com/ItsBlurf/PoorDS4/releases/download/v0.2.0/PoorDS4-stop.elf",
+      "description": "Stops a running PoorDS4. Run it before loading a newer PoorDS4 build.",
+      "last_update": "2026-10-21",
+      "version": "v0.2.0",
+      "category": "Utilities",
+      "checksum": "fab1ad04daf8346e5952c115f3a08621598d29e222ff80e328a14e73a0f968c8"
     }
   ]
 }
