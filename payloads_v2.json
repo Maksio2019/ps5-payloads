@@ -15,15 +15,15 @@
     },
     {
       "name": "GTAVI-UnlockFPS",
-      "filename": "GTAVI.UnlockFPS_v1.14.elf",
-      "url": "https://github.com/HSgod/ps5-fpsunlocker-gta6/releases/download/v1.14/GTAVI.UnlockFPS_v1.14.elf",
+      "filename": "GTAVI.UnlockFPS_v1.15.elf",
+      "url": "https://github.com/HSgod/ps5-fpsunlocker-gta6/releases/download/v1.15/GTAVI.UnlockFPS_v1.15.elf",
       "source": "https://github.com/HSgod/ps5-fpsunlocker-gta6/releases",
-      "source_direct": "https://github.com/HSgod/ps5-fpsunlocker-gta6/releases/download/v1.14/GTAVI.UnlockFPS_v1.14.elf",
+      "source_direct": "https://github.com/HSgod/ps5-fpsunlocker-gta6/releases/download/v1.15/GTAVI.UnlockFPS_v1.15.elf",
       "description": "GTA VI FPS unlocker (game v01.002.001). Load BEFORE starting the game. Settings: /data/gtavi-unlockfps/fps.txt",
-      "last_update": "2026-11-26",
-      "version": "v1.14",
+      "last_update": "2026-11-27",
+      "version": "v1.15",
       "category": "Game Patches",
-      "checksum": "9d7b726369407cd1ca1030dfc4bd705d01f27ebf0bf564a7d100c1599db14904"
+      "checksum": "09258095452838e6e38e2e5301dc534eb215f48e1288e1a980b555d1e82eb48b"
     },
     {
       "name": "PoorDS4",
