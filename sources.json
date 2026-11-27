@@ -14,6 +14,20 @@
       "asset_pattern": "(?i)unlockfps.*\\.elf$",
       "description": "GTA VI FPS unlocker (game v01.002.001). Load BEFORE starting the game. Settings: /data/gtavi-unlockfps/fps.txt",
       "category": "Game Patches"
+    },
+    {
+      "name": "PoorDS4",
+      "repo": "ItsBlurf/PoorDS4",
+      "asset_pattern": "(?i)^poords4(?!-(stop|status))[^/]*\\.elf$",
+      "description": "Use a wireless DualShock 4 in native PS5 games and homebrew. Connect the DS4 first, then load. No vibration.",
+      "category": "Utilities"
+    },
+    {
+      "name": "PoorDS4-stop",
+      "repo": "ItsBlurf/PoorDS4",
+      "asset_pattern": "(?i)^poords4-stop\\.elf$",
+      "description": "Stops a running PoorDS4. Run it before loading a newer PoorDS4 build.",
+      "category": "Utilities"
     }
   ]
 }

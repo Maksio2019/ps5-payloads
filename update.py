@@ -9,6 +9,7 @@ import json
 import os
 import re
 import sys
+import urllib.error
 import urllib.request
 
 SOURCES = "sources.json"
@@ -28,9 +29,18 @@ def http_get(url, accept=None):
 
 
 def latest_release(repo):
-    data = http_get(f"https://api.github.com/repos/{repo}/releases/latest",
-                    accept="application/vnd.github+json")
-    return json.loads(data)
+    accept = "application/vnd.github+json"
+    try:
+        return json.loads(http_get(f"https://api.github.com/repos/{repo}/releases/latest", accept))
+    except urllib.error.HTTPError as e:
+        if e.code != 404:
+            raise
+    # No "Latest" release (repo only publishes pre-releases): take the newest non-draft one.
+    releases = json.loads(http_get(f"https://api.github.com/repos/{repo}/releases?per_page=10", accept))
+    for rel in releases:
+        if not rel.get("draft"):
+            return rel
+    raise RuntimeError("no releases found")
 
 
 def pick_asset(assets, pattern):
